@@ -19,8 +19,7 @@ It provides a **clean, responsive interface** for managing fitness routines.
 
 ## 🖼️ Screenshots
 
-![Screenshot 1](<img width="1366" height="768" alt="Screenshot 2025-10-13 160307" src="https://github.com/user-attachments/assets/b7656b95-7f52-4acb-92a9-966b8f0e33ed" />
-)  
+(<img width="1366" height="768" alt="Screenshot 2025-10-13 160307" src="https://github.com/user-attachments/assets/b7656b95-7f52-4acb-92a9-966b8f0e33ed" />)  
 
 ---
 
@@ -60,64 +59,31 @@ cd FULL-STACK-APP-USING-MERN
 
 2.**Install backend dependencies**
 
-cd backend
-npm install
+-cd backend
+-npm install
 
 
 3.**Install frontend dependencies**
 
-cd ../frontend
-npm install
+-cd ../frontend
+-npm install
 
-Run the App
+**Run the App**
 
 Start Backend Server:
 
-cd backend
-npm run dev
+-cd backend
+-npm run dev
 
 
-The backend will run on http://localhost:4000
+-The backend will run on http://localhost:4000
 
-Start Frontend App:
+**Start Frontend App:**
 
-cd frontend
-npm run dev
+-cd frontend
+-npm run dev
 
 
 The frontend will run on http://localhost:5173
 and will proxy API requests to the backend.
 
-**FOLDER STRUCTURE**  
-
-FULL-STACK-APP-USING-MERN/
-│
-├── backend/
-│   ├── controllers/
-│   │   └── workoutController.js
-│   ├── models/
-│   │   └── workoutModel.js
-│   ├── routes/
-│   │   └── workout.js
-│   ├── server.js
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── NavBar.jsx
-│   │   │   ├── WorkoutForm.jsx
-│   │   │   └── WorkoutDetails.jsx
-│   │   ├── context/
-│   │   │   └── WorkoutContext.jsx
-│   │   ├── hooks/
-│   │   │   └── useWorkoutContext.jsx
-│   │   ├── pages/
-│   │   │   └── Home.jsx
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── package.json
-│   └── vite.config.js
-│
-└── README.md
