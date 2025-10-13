@@ -19,7 +19,7 @@ It provides a **clean, responsive interface** for managing fitness routines.
 
 ## 🖼️ Screenshots
 
-(<img width="1366" height="768" alt="Screenshot 2025-10-13 160307" src="https://github.com/user-attachments/assets/b7656b95-7f52-4acb-92a9-966b8f0e33ed" />)  
+<img width="1366" height="768" alt="Screenshot 2025-10-13 160307" src="https://github.com/user-attachments/assets/b7656b95-7f52-4acb-92a9-966b8f0e33ed" />
 
 ---
 
