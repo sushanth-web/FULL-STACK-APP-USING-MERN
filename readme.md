@@ -62,3 +62,11 @@ export default defineConfig({
 
 
 npm i date-fns
+
+npm install bcrypt(to hash the password which means to protect the password by changing it into some other form)
+
+npm i validator(to vslidate email and password)
+
+npm i jsonwebtoken (to specify a sepertae token to each user)
+
+ npm install -g npm@11.6.2

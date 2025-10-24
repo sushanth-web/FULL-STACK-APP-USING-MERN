@@ -1,18 +1,27 @@
 import React, { useState } from 'react'
 import { useWorkoutContext } from '../hooks/useWorkoutContext'
+import { useAuthContext } from '../hooks/useAuthContext'
 
 
 const WorkoutForm = () => {
+  
+  const {user} = useAuthContext()
 
     const {dispatch} = useWorkoutContext()
   const [title, setTitle] = useState('')
   const [load, setLoad] = useState('')
   const [reps, setReps] = useState('')
   const [error, setError] = useState(null)
+  
 
   // ✅ Make handleSubmit async and include event parameter
   const handleSubmit = async (e) => {
     e.preventDefault()
+
+    if(!user){
+      setError('user Must be logged in!')
+      return
+    }
 
     const workout = { title, load, reps }
 
@@ -22,6 +31,7 @@ const WorkoutForm = () => {
         body: JSON.stringify(workout),
         headers: {
           'Content-Type': 'application/json',
+          'Authorization':`Bearer ${user.token}`
         },
       })
 
